@@ -56,7 +56,7 @@
 #define DMAC_PL330_DBGINST0	0xd08
 #define DMAC_PL330_DBGINST1	0xd0c
 
-#define DMA_TIMEOUT_US		10
+#define DMA_TIMEOUT_US		100000
 #define CH_STATUS_MASK		0xf
 #define DATA_MASK		0xf
 
